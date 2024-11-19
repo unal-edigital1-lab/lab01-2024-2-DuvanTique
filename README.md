@@ -1,6 +1,6 @@
 # lab01- sumador 
-## nombres
+## nombre: Duvan Stiven Tique Osorio
 
-## informe de laoratorio 
+## informe de laboratorio 
 
 ### sumador 
