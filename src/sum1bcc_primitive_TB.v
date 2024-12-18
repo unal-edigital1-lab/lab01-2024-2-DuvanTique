@@ -29,7 +29,7 @@ end
 initial begin: TEST_CASE
      $dumpfile("sum1bcc_primitive_TB.vcd");
      $dumpvars(-1, uut);
-     #(200) $finish;
+     #(30) $finish;
    end
 
 endmodule //

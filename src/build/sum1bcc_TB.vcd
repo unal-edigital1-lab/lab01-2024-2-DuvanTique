@@ -1,5 +1,5 @@
 $date
-	Tue Dec 03 15:40:05 2024
+	Wed Dec 18 09:30:11 2024
 $end
 $version
 	Icarus Verilog
@@ -7,16 +7,14 @@ $end
 $timescale
 	1ns
 $end
-$scope module sum1bcc_primitive_TB $end
+$scope module sum1bcc_TB $end
 $scope module uut $end
 $var wire 1 ! A $end
 $var wire 1 " B $end
 $var wire 1 # Ci $end
-$var wire 1 $ Cout $end
-$var wire 1 % S $end
-$var wire 1 & a_ab $end
-$var wire 1 ' cout_t $end
-$var wire 1 ( x_ab $end
+$var wire 1 $ S $end
+$var wire 1 % Cout $end
+$var reg 2 & st [1:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -25,9 +23,7 @@ $dumpall
 $end
 #0
 $dumpvars
-0(
-0'
-0&
+b0 &
 0%
 0$
 0#
@@ -35,36 +31,34 @@ $dumpvars
 0!
 $end
 #3
-1%
+1$
+b1 &
 1#
 #6
-1(
 0#
 1"
 #9
-1$
-0%
-1'
-1#
-#12
 0$
 1%
-0'
+b10 &
+1#
+#12
+1$
+0%
+b1 &
 0#
 0"
 1!
 #15
-1$
-0%
-1'
+0$
+1%
+b10 &
 1#
 #18
-0'
-1&
-0(
 0#
 1"
 #21
-1%
+1$
+b11 &
 1#
-#30
+#200

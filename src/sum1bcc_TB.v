@@ -1,4 +1,4 @@
-`include "src/sum1bcc.v"
+`include "sum1bcc.v"
 `timescale 1ns/1ns
 module sum1bcc_TB;
 
@@ -29,7 +29,7 @@ end
 initial begin: TEST_CASE
      $dumpfile("sum1bcc_TB.vcd");
      $dumpvars(-1, uut);
-     #(200) $finish;
+     #(30) $finish;
    end
 
 endmodule //
