@@ -1,5 +1,5 @@
 # lab01- sumador 
-## nombre: Duvan Stiven Tique Osorio
+### Nombre: Duvan Stiven Tique Osorio
 
 ## informe de laboratorio 
 ### sumador 
@@ -11,3 +11,21 @@ Como se puede observar en los siguientes archivos la salida **S** es la misma ya
 [sum1bcc_simulacion.pdf](https://github.com/user-attachments/files/17997608/sum1bcc_simulacion.pdf)
 #### modulo sum1bcc_primitive:
 [sum1bcc_primitive_simulacion.pdf](https://github.com/user-attachments/files/17997626/sum1bcc_primitive_simulacion.pdf)
+
+### Implementación
+Utilizando 3 interruptores para controlar las entradas(A,B,Ci) se realiza la operación de suma dandonos las siguientes posibilidades
+| A | B | Cin | S | Cout |
+|---|---|-----|---|------|
+| 0 | 0 |  0  | 0 |  0   |
+| 0 | 0 |  1  | 1 |  0   |
+| 0 | 1 |  0  | 1 |  0   |
+| 0 | 1 |  1  | 0 |  1   |
+| 1 | 0 |  0  | 1 |  0   |
+| 1 | 0 |  1  | 0 |  1   |
+| 1 | 1 |  0  | 0 |  1   |
+| 1 | 1 |  1  | 1 |  1   |
+
+Entonces se le asigna un led a la salida **S** y uno a la salida **Cout**, si este esta apagado su valor es **0** y si esta encendido su valor sera de **1**.
+
+https://github.com/user-attachments/assets/f437c955-92f8-4cf8-a903-cc769d3f5670
+
